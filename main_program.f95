@@ -1,3 +1,5 @@
+! molecular dynamic simulation of active brownian particles subjected to WCA potential interactions and 
+! confined between two boundaries in 2 dimensions
 use omp_lib
 implicit none
 integer :: m,t,tmax,i,j,iseed,n,mtot,nwall,m_start,m_end
